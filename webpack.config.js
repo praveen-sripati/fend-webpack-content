@@ -2,5 +2,5 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  "build": "webpack"
+  entry: "./src/client/js/index.js",
 }
